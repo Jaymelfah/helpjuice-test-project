@@ -11,7 +11,7 @@ In this project test, I built a Notion-like editor, but only the H1 heading comp
 
 
 ## Live Demo
-Please use this [link]()
+Please use this [link](https://iridescent-phoenix-6345e5.netlify.app/)
 
 
 ## Getting Started
