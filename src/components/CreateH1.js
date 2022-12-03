@@ -5,6 +5,7 @@ const CreateH1 = () => {
   const [text, setText] = useState('');
   const [substr, setSubstr] = useState('');
   const [h1text, setH1text] = useState([]);
+  const lastChar = text.charAt(text.length - 1);
 
   const charactersCheck = () => {
     const check = text.slice(0, 2);
@@ -16,7 +17,7 @@ const CreateH1 = () => {
   const handleEnterKey = (e) => {
     const firstTwoChar = charactersCheck();
     if (e.key === 'Enter' && firstTwoChar === '/1') {
-      setH1text([...h1text, substr]);
+      setH1text([...h1text, substr + lastChar]);
     }
   };
 
