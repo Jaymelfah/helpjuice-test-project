@@ -21,6 +21,7 @@ const CreateH1 = () => {
     const firstTwoChar = charactersCheck();
     if (e.key === 'Enter' && firstTwoChar === '/1') {
       setH1text([...h1text, substr + lastChar]);
+      setText('');
     }
   };
 
