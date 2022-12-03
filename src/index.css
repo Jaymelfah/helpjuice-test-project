@@ -84,3 +84,16 @@ body {
   border-bottom: 1px solid #e6e7eb;
   padding-bottom: 0.7rem;
 }
+
+.input {
+  margin-top: 3rem;
+  border: none;
+  padding: 1rem;
+  width: 80%;
+  font-size: 20px;
+}
+
+.hamburger {
+  color: #d6d7dc;
+  font-size: 13px;
+}
